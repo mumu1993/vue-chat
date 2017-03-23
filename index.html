@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>vue-chat</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="/dist/build.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>vue-chat</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    
+    body,
+    html {
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    body {
+      background: url("dist/img/bg.jpg") no-repeat center;
+      background-size: cover;
+      font: 14px/1.4em 'Helvetica Neue', Helvetica, 'Microsoft Yahei', Arial, sans-serif;
+      color: #4d4d4d;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="/dist/build.js"></script>
+</body>
+
 </html>
