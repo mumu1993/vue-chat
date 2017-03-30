@@ -10,10 +10,10 @@
 <script>
 import { actions } from './store';
 
-import Card from 'components/card';
+import card from './components/card.vue';
 
 export default {
-  components: { Card },
+  components: { card },
   name: 'app',
   vuex: {
     actions: actions

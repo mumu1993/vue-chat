@@ -1,5 +1,5 @@
 <style lang="less">
-  
+
 </style>
 
 <template>
@@ -11,13 +11,13 @@
     <footer>
       <input type="text">
     </footer>
-  
   </div>
 </template>
 
 <script>
   import {actions} from '../store';
   export default {
+    name: 'card',
     vuex: {
       actions: actions,
       getters: {
